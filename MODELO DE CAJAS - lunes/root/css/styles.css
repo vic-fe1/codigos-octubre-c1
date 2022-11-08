@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.caja { 
+    /* HEIGHT -> ALTURA */
+height: 500px;
+    /* WIDTH -> ANCHO */    
+width: 300px;
+    /* MARGIN -> Márgenes -> espacio alrededor de nuestra caja. Admite 4 valores*/
+    margin:40px 20px 10px 5px;
+    /* margin es el atajo de -> margin-top, margin-bottom, margin-right y margin-left */
+    /* PADDING -> Relleno - espacio entre el contenido y el border */
+    padding: 40px;
+    border: 2px solid #000;
+  background-color: #ff0000;
+  display: inline-block;
+  text-align: center;
+} 
