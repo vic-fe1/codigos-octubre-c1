@@ -1,0 +1,35 @@
+/* ESTILOS GENERALES */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS DEL HEADER */ 
+
+header p {
+    background-color: #1CD1B0;
+    padding: 14px 36px;
+}
+
+header h3 {
+    background-color: #00669F;
+    padding: 28px;
+}
+
+/* ESTILOS DE LAS CARDS */
+
+.contenedor-padre {
+    height:800px;
+    display:flex;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: #365836;
+    margin: 20px;
+}
