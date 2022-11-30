@@ -1,0 +1,54 @@
+/* ESTILOS GENERALES */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(85, 107, 47);
+    color: #FFF;
+    padding: 12px 36px;
+    border-radius: 50px;
+}
+
+/* ESTILOS DEL HEADER */
+
+.header-home {
+    height: 174px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.header-nav {
+    width: 35%;
+}
+
+.nav-ul {
+    justify-content: space-between;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .header-nav, .header-home .btn {
+        display: none;
+    } 
+    .burger {
+        display: block;
+    }
+}
