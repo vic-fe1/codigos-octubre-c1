@@ -1,0 +1,69 @@
+/* ESTILOS GENERALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+/* ESTILOS DEL HERO */
+
+.container-hero {
+  justify-content: space-between;
+  width: 80vw;
+  margin: 25px 10vw;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+.hero-text {
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+  line-height: 57px;
+  text-align: right;
+}
+
+.hero-text p {
+  line-height: 25px;
+  text-align: right;
+}
+
+.hero-text p,
+.hero-text h1,
+.hero-text button {
+    margin-top: 40px;
+}
+
+.hero-text button {
+    padding: 12px 42px;
+    background-color: blueviolet;
+    color: #FFF;
+    border: none;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container-hero {
+        flex-direction: column;
+        gap: 50px;
+        /* ENTRE LOS ELEMENTOS DEL CONTENEDOR; DEJA ESTE ESPACIO */
+    }
+
+    .hero-img, .hero-text {
+        width: 100%;
+        gap: 25px;
+    }
+}
